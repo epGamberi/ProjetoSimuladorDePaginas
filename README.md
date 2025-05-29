@@ -1,14 +1,13 @@
-
-# Projeto Simulador de Paginação de Memória
-
-Este nosso projeto simula o funcionamento de um sistema de gerenciamento de memória com paginação, usando os algoritmos de substituição FIFO e Random. Foi desenvolvido como parte da disciplina Sistemas Operacionais
-
 # Integrantes do Grupo
 
 - Enzo Ponte Gamberi RA:10389931
 - Thiago Ruiz Fernandes Silva RA:10426057
 - João Guilherme Messias de Oliveira Santos RA:10426110
- 
+
+# Projeto Simulador de Paginação de Memória
+
+Este nosso projeto simula o funcionamento de um sistema de gerenciamento de memória com paginação, usando os algoritmos de substituição FIFO e Random. Foi desenvolvido como parte da disciplina Sistemas Operacionais
+
 # Descrição do Projeto
 
 O simulador implementa um sistema de paginação de memória com as seguintes características:
