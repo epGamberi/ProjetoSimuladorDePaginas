@@ -42,8 +42,8 @@ simulador_memoria
 
 ├── README.md  // Este arquivo
 
-## Funcionalidades Implementadas
-# Algoritmos de Substituição
+# Funcionalidades Implementadas
+## Algoritmos de Substituição
 
 - FIFO: Substitui a página mais antiga na memória (ordem de chegada).
 - Random: Substitui uma página aleatória da memória física.
@@ -58,14 +58,14 @@ simulador_memoria
   - Total de page faults
   - Taxa de page fault
 
-## Instruções de Compilação e Execução
-# Requisitos
+# Instruções de Compilação e Execução
+## Requisitos
 
 - Compilador GCC
 - Sistema Linux, macOS ou Windows com suporte a rand() e time.h
 
-## Compilação
-# Comando de compilação:
+# Compilação
+## Comando de compilação:
 
 gcc -o simulador simulador.c
 
@@ -88,7 +88,7 @@ Por padrão, o algoritmo utilizado é FIFO. Para usar Random, basta modificar o 
     
 5 - Ao final, imprime as estatísticas da execução
 
-#Exemplo de Saída
+# Exemplo de Saída
 
 Page Fault! Página 0 não está na memória.
 
