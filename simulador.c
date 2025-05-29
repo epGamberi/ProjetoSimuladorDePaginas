@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "estruturas.h"
+#include "estruturas.h" 
 #include "memoria.h"
 
 void inicializar_simulador(Simulador *sim, int algoritmo) {
