@@ -108,3 +108,9 @@ Taxa de page fault: 77.78%
 
 # Considerações
 Este simulador é uma versão simplificada com foco em demonstrar os conceitos fundamentais de paginação e substituição de páginas. A estrutura modular permite fácil expansão para múltiplos processos e algoritmos mais sofisticados como LRU e CLOCK.
+
+# Referências
+
+- Projeto Original: Professor Lucas Cerqueira Figueiredo - Mackenzie
+- Livro: Operating Systems: Three Easy Pieces — Arpaci-Dusseau
+- Ferramentas usadas: gcc, gdb, ChatGPT para planejamento textual
