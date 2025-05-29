@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdlib.h> 
 #include "memoria.h"
 
 int substituir_pagina_fifo(Simulador *sim) {
