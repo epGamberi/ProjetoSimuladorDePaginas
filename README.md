@@ -8,7 +8,7 @@ Este nosso projeto implementa um simulador de paginação de memória, que demon
 - Enzo Ponte Gamberi RA:10389931
 - Thiago Ruiz Fernandes Silva RA:10426057
 - João Guilherme Messias de Oliveira Santos RA:10426110
-- 
+ 
 # Descrição do Projeto
 
 O simulador implementa um sistema de paginação de memória com as seguintes características:
@@ -32,8 +32,10 @@ O simulador registra estatísticas importantes como o número de acessos à mem�
 
 simulador_memoria/
 
-├── simulador.c         # Implementação completa do simulador (FIFO + Random)
-├── README.md           # Instruções e descrição do projeto
+├── simulador.c
+Implementação completa do simulador (FIFO + Random)
+├── README.md
+Instruções e descrição do projeto
 
 Nota: Este projeto é modularizável e pode ser expandido facilmente para incluir múltiplos processos, outros algoritmos (LRU, CLOCK), ou visualizações interativas.
 
@@ -71,21 +73,30 @@ Por padrão, o algoritmo utilizado é FIFO. Para usar Random, basta modificar o 
 # Como Usar o Simulador
 
 1 - Compile e execute o programa
+
 2 - O simulador inicia com a configuração padrão
+
 3 - Ele executa uma sequência fixa de acessos virtuais simulando um processo
+
 4 - A cada acesso, o simulador:
   - Traduz o endereço virtual
   - Trata o page fault (se ocorrer)
   - Exibe o frame correspondente
+  - 
 5 - Ao final, imprime as estatísticas da execução
 
 #Exemplo de Saída
 
 Page Fault! Página 0 não está na memória.
+
 Página 0 carregada no Frame 0, Endereço Físico: 0
+
 Acesso OK: Página 1 -> Frame 1, Endereço Físico: 4096
+
 Page Fault! Página 2 não está na memória.
+
 Página 2 carregada no Frame 2, Endereço Físico: 8192
+
 ...
 
 --- ESTATÍSTICAS ---
