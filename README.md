@@ -42,8 +42,6 @@ simulador_memoria
 
 ├── README.md  // Este arquivo
 
-Nota: Este projeto é modularizável e pode ser expandido facilmente para incluir múltiplos processos, outros algoritmos (LRU, CLOCK), ou visualizações interativas.
-
 ## Funcionalidades Implementadas
 # Algoritmos de Substituição
 
@@ -108,3 +106,6 @@ Página 2 carregada no Frame 2, Endereço Físico: 8192
 Total de acessos: 9
 Page faults: 7
 Taxa de page fault: 77.78%
+
+# Considerações
+Este simulador é uma versão simplificada com foco em demonstrar os conceitos fundamentais de paginação e substituição de páginas. A estrutura modular permite fácil expansão para múltiplos processos e algoritmos mais sofisticados como LRU e CLOCK.
