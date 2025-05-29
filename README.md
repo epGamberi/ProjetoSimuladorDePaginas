@@ -1,7 +1,7 @@
 
 # Projeto Simulador de Paginação de Memória
 
-Este nosso projeto implementa um simulador de paginação de memória, que demonstra o funcionamento de diferentes algoritmos de substituição de páginas.
+Este nosso projeto simula o funcionamento de um sistema de gerenciamento de memória com paginação, usando os algoritmos de substituição FIFO e Random. Foi desenvolvido como parte da disciplina Sistemas Operacionais
 
 # Integrantes do Grupo
 
