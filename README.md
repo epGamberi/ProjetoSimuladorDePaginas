@@ -82,7 +82,7 @@ Por padrão, o algoritmo utilizado é FIFO. Para usar Random, basta modificar o 
   - Traduz o endereço virtual
   - Trata o page fault (se ocorrer)
   - Exibe o frame correspondente
-  - 
+    
 5 - Ao final, imprime as estatísticas da execução
 
 #Exemplo de Saída
