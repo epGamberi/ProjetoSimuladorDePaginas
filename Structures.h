@@ -1,9 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#ifndef ESTRUTURAS_H
+#define ESTRUTURAS_H
 
 #define NUM_FRAMES 4
-#define NUM_PAGINAS 8
+#define TAM_PAGINA 4096
 #define PID 1
 
 typedef struct {
@@ -19,7 +18,7 @@ typedef struct {
 } Processo;
 
 typedef struct {
-    int frames[NUM_FRAMES]; // (pid << 16) | num_pagina
+    int frames[NUM_FRAMES];      // (pid << 16) | pagina
     int tempo_carga[NUM_FRAMES];
 } MemoriaFisica;
 
@@ -29,6 +28,8 @@ typedef struct {
     MemoriaFisica memoria;
     int total_acessos;
     int page_faults;
-    int algoritmo; // 0 = FIFO, 1 = RANDOM
+    int algoritmo; // 0=FIFO, 1=RANDOM
     int proximo_fifo;
 } Simulador;
+
+#endif
