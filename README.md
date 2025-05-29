@@ -30,9 +30,8 @@ O simulador registra estatísticas importantes como o número de acessos à mem�
 
 # Estrutura do Projeto
 
-simulador_memoria/
+simulador_memoria
 
-simulador_memoria/
 ├── main.c  // Função principal da simulação
 
 ├── simulador.c/.h  // Lógica da simulação, controle de tempo e estatísticas
