@@ -33,11 +33,15 @@ O simulador registra estatísticas importantes como o número de acessos à mem�
 simulador_memoria/
 
 simulador_memoria/
-├── main.c               // Função principal da simulação
-├── simulador.c/.h       // Lógica da simulação, controle de tempo e estatísticas
-├── memoria.c/.h         // Controle de memória física e substituição
-├── estruturas.h         // Tipos e constantes do sistema
-├── README.md            // Este arquivo
+├── main.c  // Função principal da simulação
+
+├── simulador.c/.h  // Lógica da simulação, controle de tempo e estatísticas
+
+├── memoria.c/.h  // Controle de memória física e substituição
+
+├── estruturas.h  // Tipos e constantes do sistema
+
+├── README.md  // Este arquivo
 
 Nota: Este projeto é modularizável e pode ser expandido facilmente para incluir múltiplos processos, outros algoritmos (LRU, CLOCK), ou visualizações interativas.
 
